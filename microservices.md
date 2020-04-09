@@ -47,6 +47,12 @@
 
       ![Conways Law in Action]    
       
+      `Any organization that designs a system will inevitably produce a design whose structure is a copy of the organization's communication structure`
+      
+      In "Exploring the Duality between Product and Organizational Architectures", a study by The Harvard Business School carried out an analysis of different codebases to see if they could prove Conway’s original hypothesis as applied to software systems. In it, they took multiple examples of software created to solve the same purpose (for example word processing, financial management and database software), and compared the code bases created by loosely-coupled open source teams, and those created by tightly-coupled teams. Their study found that the often co-located, focused product teams created software that tended more towards tightly-coupled, monolithic codebases. Whereas the open source projects resulted in more modular, decomposed code bases.
+      
+      Organizations for a few years now have understood this link between organizational structure and software they create, and have been embracing new structures in order to achieve the outcome they want. Netflix and Amazon for example structure themselves around multiple small teams, each one with responsibility for a small part of the overall system. These independent teams can own the whole lifecycle of the services they create.These services with their independent concerns can change and evolve separately from one another, resulting in the ability to deliver changes to production faster.
+
       ![Functional Staff Organization]
 
   * #### Decentralized Data Management
