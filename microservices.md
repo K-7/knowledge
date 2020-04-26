@@ -14,9 +14,9 @@
   - Applies stress to the [All-Or-Nothing]
   - Small changes require entire project to be rebuilt and deployed
 
-## What are Microservices?
+## Microservices Architecture
 * ### [Wikipedia][Microservices on Wikipedia]
-  Services communicate using either synchronous protocols such as HTTP/REST or asynchronous protocols such as AMQP. ervices can be developed and deployed independently of one another. Each service has its own database in order to be decoupled from other services. 
+  Services communicate using either synchronous protocols such as HTTP/REST or asynchronous protocols such as AMQP. Services can be developed and deployed independently of one another. Each service has its own database in order to be decoupled from other services. 
 
   Advantages:
   * Independently developed and deployed
