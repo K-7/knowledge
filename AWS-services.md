@@ -19,14 +19,14 @@ https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policie
 https://policysim.aws.amazon.com/home/index.jsp?#roles/dev-EC2DefaultServerRole
 
 
-# VPC 
+# VPC - Virtual Private Cloud
+Enables you to launch AWS resources into a virtual network that you've defined. Helps in controlling what traffic comes in and goes out.
 - VPC are per Account per Region
-- Subnets are per VPC per AZ (Availability zone)
+- Subnets is a range of IP addresses in your VPC that are per VPC per AZ (Availability zone)
 - Amazon VPC is the networking layer for Amazon EC2
-- A subnet is a range of IP addresses in your VPC
-- A route table contains a set of rules, called routes, that are used to determine where network traffic is directed
-- An internet gateway is a horizontally scaled, redundant, and highly available VPC component that allows communication between instances in your VPC and the internet. It therefore imposes no availability risks or bandwidth constraints on your network traffic.
-- NAT gateway allows instances within a private subnet access to the internet, but the NAT gateway itself will block all incoming requests from the internet. NAT is always inside public subnet
+- A route table contains a set of rules, called routes, that are used to determine where network traffic is directed. Genrally route table connects public subnet to Internet Gateway to expose it to Internet.
+- An internet gateway allows communication between instances in your VPC and the internet. It therefore imposes no availability risks or bandwidth constraints on your network traffic.
+- NAT gateway allows instances within a private subnet to access the internet, but the NAT gateway itself will block all incoming requests from the internet. NAT is always inside public subnet. Using Route table we allow private subnet traffic to be sent to NAT which is residing inside public Subnet which further sends it to internet. Eg: Database servers needs to update a patch from Internet
 
 <img style='width: 800px' src="./images/vpc.png" />
 
