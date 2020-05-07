@@ -14,7 +14,7 @@ it provides you with temporary security credentials for your role session.
         Inline-Policy : Policy specific for a Role
         Global Policy : Policy which can be attached to any role’s
 
-Check whether there policy works using either CLI (dry run) or the below Policy Simulator 
+Check whether policy works using either CLI (dry run) or using the below Policy Simulator 
 https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_testing-policies.html
 https://policysim.aws.amazon.com/home/index.jsp?#roles/dev-EC2DefaultServerRole
 
