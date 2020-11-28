@@ -1,6 +1,6 @@
 # What is Machine Learning ?
 
-- Provides systems the ability to automatically learn and improve from experience without being explicitly programmed
+- Provide system's the ability to automatically learn and improve from experience without being explicitly programmed
 - Eg: Imagine you are going to bowling and its your first day
 - A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
 
@@ -75,4 +75,3 @@ Neural networks are a class of machine learning algorithms used to model complex
 - Healthcare - Medication predictions, disease identification or trajectory etc
 - Businesses - efficiency of logistics and transportation networks, build customer profiles, increase sales and improve brand loyalty
 - Education - Identify struggling students earlier and take action 
-
