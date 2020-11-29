@@ -11,7 +11,7 @@ way that we would consider “smart”.
 them learn for themselves
 
 
-# Why ML or AI
+# Why do we need ML ?
 - Applications learn from experience (well data) like humans without direct programming. When exposed to new data, these applications learn, grow, change, and develop by themselves. We don’t want to code the logic for our program instead we want a machine to figure out logic from the data on its own.
 
 # Types of ML
