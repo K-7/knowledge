@@ -24,12 +24,15 @@ Neural networks are a class of machine learning algorithms used to model complex
 - A layer is nothing but a collection of neurons which take in an input and provide an output
 
 
+
 # Types of ML
 
 <img style='width: 800px' src="./images/ML-types.jpg" />
 
 - Supervised ML:
     Supervised learning is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output Y = f(X)
+
+    <img style='width: 800px' src="./images/supervised_learning.png" />
 
 - Reinforcement learning:
     A computer program interacts with a dynamic environment in which it must perform a certain goal (such as driving a vehicle or playing a game against an opponent). The program is provided feedback in terms of rewards and punishments as it navigates its problem space. Eg: autonomous driving, text summarization, question answering, and machine translation
@@ -75,3 +78,12 @@ Neural networks are a class of machine learning algorithms used to model complex
 - Healthcare - Medication predictions, disease identification or trajectory etc
 - Businesses - efficiency of logistics and transportation networks, build customer profiles, increase sales and improve brand loyalty
 - Education - Identify struggling students earlier and take action 
+
+
+# Useful links for learning 
+
+- https://www.kaggle.com/
+- https://colab.research.google.com/notebooks/intro.ipynb#recent=true
+- https://gke.mybinder.org/
+- https://datalore.jetbrains.com/notebooks
+- https://github.com/amitkaps
