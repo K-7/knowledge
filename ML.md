@@ -14,17 +14,6 @@ them learn for themselves
 # Why ML or AI
 - Applications learn from experience (well data) like humans without direct programming. When exposed to new data, these applications learn, grow, change, and develop by themselves. We don’t want to code the logic for our program instead we want a machine to figure out logic from the data on its own.
 
-
-# Neural Network
-<img style='width: 800px' src="./images/nn.png" />
-Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. They are based on the model of a human neuron.
-
-- Neuron - it takes in some inputs and fires an output. In purely mathematical terms, a neuron in the machine learning world is a placeholder for a mathematical function, and its only job is to provide an output by applying the function on the inputs provided.The function used in a neuron is generally termed as an activation function
-
-- A layer is nothing but a collection of neurons which take in an input and provide an output
-
-
-
 # Types of ML
 
 <img style='width: 800px' src="./images/ML-types.jpg" />
@@ -61,6 +50,15 @@ Neural networks are a class of machine learning algorithms used to model complex
 
 - Type of Supervised Machine Learning, where the data is continuously split according to a certain parameter
 - Eg: Decision Tree formulated for Risk of Kidney stones
+
+
+# Neural Network
+<img style='width: 800px' src="./images/nn.png" />
+Neural networks are a class of machine learning algorithms used to model complex patterns in datasets using multiple hidden layers and non-linear activation functions. They are based on the model of a human neuron.
+
+- Neuron - it takes in some inputs and fires an output. In purely mathematical terms, a neuron in the machine learning world is a placeholder for a mathematical function, and its only job is to provide an output by applying the function on the inputs provided.The function used in a neuron is generally termed as an activation function
+
+- A layer is nothing but a collection of neurons which take in an input and provide an output
 
 
 # Downside of ML
