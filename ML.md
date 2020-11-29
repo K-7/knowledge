@@ -75,7 +75,7 @@ Neural networks are a class of machine learning algorithms used to model complex
 - Do you know how does gmail knows that a particular mail has to go to priority, social, promotion or spam box
 - Healthcare - Medication predictions, disease identification or trajectory etc
 - Businesses - efficiency of logistics and transportation networks, build customer profiles, increase sales and improve brand loyalty
-- Education - Identify struggling students earlier and take action 
+- Education - Identify struggling students earlier and take necessary action 
 
 
 # Useful links for learning 
