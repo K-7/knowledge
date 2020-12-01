@@ -33,6 +33,11 @@ them learn for themselves
     System is given a set data and tasked with finding patterns and correlations or relationships
 
 
+# ML Pipeline
+
+<img style='width: 800px' src="./images/ml-pipeline.png" />
+
+
 # Regression & Classification
 
 <img style='width: 800px' src="./images/regression_classification.jpg" />
