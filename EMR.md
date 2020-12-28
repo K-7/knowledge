@@ -103,4 +103,70 @@ Machine learning has massive potential to enhance clinical decision-making and i
 - Clinical notes contain valuable information about the patient but requires processing to convert unstructured text into structured features.
 - Topic modelling is a text-mining technique that can be implemented in two ways (LDA and NMF) to help extract hidden topics from unstructured text.
 
-#### Reference: https://medium.com/@topspinj/feature-engineering-of-electronic-medical-records-7447ee1c47b4
+
+# Imbalanced dataset
+
+Imbalanced dataset is common occurrence in healthcare data science. To prevent negative prediction
+
+- sub-sampling the negatives
+- over-sampling the positives
+- create synthetic data (e.g. SMOTE)
+
+# Techniques 
+
+1. ## sub-sampling
+```
+# split the training data into positive and negative
+rows_pos = df_train_all.OUTPUT_LABEL == 1
+
+df_train_pos = df_train_all.loc[rows_pos]
+df_train_neg = df_train_all.loc[~rows_pos]
+
+# merge the balanced data
+df_train = pd.concat([df_train_pos, df_train_neg.sample(n = len(df_train_pos), random_state = 42)],axis = 0)
+
+# shuffle the order of training samples 
+df_train = df_train.sample(n = len(df_train), random_state = 42).reset_index(drop = True)
+```
+
+2. ## Preprocess the unstructured notes using a bag-of-words approach
+
+BOW basically breaks up the note into the individual words and counts how many times each word occurs
+
+<img style='width: 800px; background-color:white' src="./images/bow.jpeg" />
+
+- Preprocess the notes filling missing notes with space and removing newline and carriage returns
+- The tokenizer breaks a single note into a list of words and a vectorizer takes a list of words and counts the words.
+- replace punctuation with spaces, replace numbers with spaces and convert all words to lower case 
+- CountVectorizer from scikit-learn package simply counts how many times each word occurs in the note
+- TfidfVectorizer which takes into how often words are used across all notes
+- It is important to use only the training data because you don’t want to include any new words that show up in the validation and test sets. There is a hyperparameter called max_features which you can set to constrain how many words are included in the Vectorizer. This will use the top N most frequently used words
+- Remove stop words
+
+3. ## Build a simple predictive model
+Logistic Regression model. Logistic regression is a good baseline model for NLP tasks since it works well with sparse matrices and is interpretable
+
+4. ## Assess the quality of your model
+
+<img style='width: 800px; background-color:white' src="./images/nlp_quality.png" />
+
+- Plot Learning Curve to understand the effect of adding more data
+
+
+5. ## Next steps for improving the model
+
+- https://github.com/andrewwlong/mimic_bow
+- should we spend time getting more data?
+- how to tokenize — should we use stemming?
+- how to vectorize — should we change the number of words?
+- how to regularized the logistic regression — should we change C or penalty?
+- which model to use?
+- Improve the model in a data-driven manner
+
+
+
+
+#### Reference: 
+- https://medium.com/@topspinj/feature-engineering-of-electronic-medical-records-7447ee1c47b4
+- https://towardsdatascience.com/introduction-to-clinical-natural-language-processing-predicting-hospital-readmission-with-1736d52bc709
+- https://www.coursera.org/specializations/deep-learning?utm_source=gg&utm_medium=sem&campaignid=904733485&adgroupid=54215108588&device=c&keyword=andrew%20ng&matchtype=p&network=g&devicemodel=&adpostion=1t1&creativeid=231631799402&hide_mobile_promo&gclid=CjwKCAjwi6TYBRAYEiwAOeH7GeXWns0WX-unoWb9Sjr-fQPQOEGlzN1jrQbqqazh6Iuvvy2JOjbLbhoCibEQAvD_BwE
