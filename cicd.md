@@ -65,6 +65,7 @@ The purpose of using Ansible in the pipeline flow is to reuse roles and Playbook
 Docker is container based technology and containers are just user space of the operating system. At the low level, a container is just a set of processes that are isolated from the rest of the system, the containers running share the host OS kernel.
 
 A Virtual Machine, on the other hand, is not based on container technology. They are made up of user space plus kernel space of an operating system. Under VMs, server hardware is virtualized. Each VM has Operating system (OS) & apps. It shares hardware resource from the host.
+
 <img style='width: 800px' src="./images/docker.png" />
 <img style='width: 300px' src="./images/vm.png" />
 
