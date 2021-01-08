@@ -10,7 +10,7 @@ Continuous integration is an automation process for developers. New code changes
 
 # CD - continuous delivery or continuous deployment
 
-Continuous delivery usually means a developer’s changes to an application are automatically bug tested and uploaded to a repository (like GitHub or a container registry), where they can then be deployed to a live production environment by the operations team. It’s an answer to the problem of poor visibility and communication between dev and business teams. The purpose of continuous delivery is to ensure that it takes minimal effort to deploy new code.
+Continuous delivery usually means a developer’s, changes to an application are automatically bug tested and uploaded to a repository (like GitHub or a container registry), where they can then be deployed to a live production environment by the operations team. It’s an answer to the problem of poor visibility and communication between dev and business teams. The purpose of continuous delivery is to ensure that it takes minimal effort to deploy new code.
 
 Continuous deployment can refer to automatically releasing a developer’s changes from the repository to production, where it is usable by customers. Reduces manual processes that slow down app delivery. 
 
@@ -54,3 +54,32 @@ Few tools for configuration management & application-deployment tool, enabling i
 - <a href="https://puppet.com/">Puppet</a>
 - <a href="/en/topics/containers/what-is-docker">Docker</a> 
 - Container orchestration (<a href="/en/topics/containers/what-is-kubernetes">Kubernetes</a>) 
+
+
+# Docker 
+
+Docker is container based technology and containers are just user space of the operating system. At the low level, a container is just a set of processes that are isolated from the rest of the system, the containers running share the host OS kernel.
+
+A Virtual Machine, on the other hand, is not based on container technology. They are made up of user space plus kernel space of an operating system. Under VMs, server hardware is virtualized. Each VM has Operating system (OS) & apps. It shares hardware resource from the host.
+<img style='width: 800px' src="./images/docker.png" />
+<img style='width: 300px' src="./images/vm.png" />
+
+`Dockerfile` is a simple text file that contains the commands a user could call to assemble an image. 
+
+`Docker image` is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform
+
+`Docker Container` is a runtime instance of an image. First we create an image (a specification) and then to build and run this image to get a container.
+
+`Docker Compose` is a tool for defining and running multi-container Docker applications. Docker compose is for orchestrating multiple containers.
+
+<img style='width: 300px' src="./images/docker-flow.png" />
+
+Benifits
+- Multiple workloads can run with 1 OS unlike VM's who required a complete OS
+- Enables more efficient use of system resources
+- Enables faster software delivery cycles
+- Docker is a perfect match for microservices architecture
+- Environment agnostic - all dependent packages are bundled up in an Image and can be run in any environment
+- Reduced IT management resources, reduced size of snapshots
+- Quicker spinning up apps, reduced & simplified security updates
+

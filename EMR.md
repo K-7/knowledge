@@ -77,6 +77,7 @@ Clinical notes are a valuable source of information that can significantly impro
 Since clinical notes are a form of unstructured data, we need to process this narrative text into structured features. Here, we will describe two natural language processing (NLP) techniques to generate structured data from unstructured text.
 
 ## Topic Modelling
+Topic modeling involves counting words and grouping similar word patterns to infer topics within unstructured data
 Topic modelling is a type of unsupervised learning that clusters similar groups of documents together based on shared attributes. Its goal is to discover “hidden topics” from a collection of documents. Prior to applying topic modelling to your clinical notes dataset, it’s a good idea to do some text pre-processing using a technique called `term frequency-inverse document frequency (TF-IDF)`. Here, we consider a “word” to be a “term”. TF-IDF is a term-weighting metric that evaluates the importance of a word based on its frequency within in a document. The more often a word appears in a document, the higher the TF-IDF score. Words that appear more frequently in general get down-weighted based on the number of documents they appear in. Once you apply TF-IDF to your clinical notes dataset, you will get a document-term matrix of shape (n_docs, n_terms) where each cell represents the TF-IDF weighted score of a given term in a document. We can use this document-term matrix to train our topic model.
 There are two different techniques that perform topic modelling:
 
@@ -170,3 +171,4 @@ Logistic Regression model. Logistic regression is a good baseline model for NLP 
 - https://medium.com/@topspinj/feature-engineering-of-electronic-medical-records-7447ee1c47b4
 - https://towardsdatascience.com/introduction-to-clinical-natural-language-processing-predicting-hospital-readmission-with-1736d52bc709
 - https://www.coursera.org/specializations/deep-learning?utm_source=gg&utm_medium=sem&campaignid=904733485&adgroupid=54215108588&device=c&keyword=andrew%20ng&matchtype=p&network=g&devicemodel=&adpostion=1t1&creativeid=231631799402&hide_mobile_promo&gclid=CjwKCAjwi6TYBRAYEiwAOeH7GeXWns0WX-unoWb9Sjr-fQPQOEGlzN1jrQbqqazh6Iuvvy2JOjbLbhoCibEQAvD_BwE
+- https://towardsdatascience.com/topic-modeling-and-latent-dirichlet-allocation-in-python-9bf156893c24
