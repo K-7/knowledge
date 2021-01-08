@@ -56,6 +56,9 @@ Few tools for configuration management & application-deployment tool, enabling i
 - <a href="/en/topics/containers/what-is-docker">Docker</a> 
 - Container orchestration (<a href="/en/topics/containers/what-is-kubernetes">Kubernetes</a>) 
 
+Shell scripts are commonly used for provisioning environments or to deploy apps during the pipeline flow. Although this could work, it is cumbersome to maintain and reuse scripts in the long run.
+
+The purpose of using Ansible in the pipeline flow is to reuse roles and Playbooks for provisioning, leaving Jenkins only as a process orchestrator instead of a shell script executor.
 
 # Docker 
 
