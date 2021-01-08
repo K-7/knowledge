@@ -10,11 +10,12 @@ Continuous integration is an automation process for developers. New code changes
 
 # CD - continuous delivery or continuous deployment
 
-Continuous delivery usually means a developer’s, changes to an application are automatically bug tested and uploaded to a repository (like GitHub or a container registry), where they can then be deployed to a live production environment by the operations team. It’s an answer to the problem of poor visibility and communication between dev and business teams. The purpose of continuous delivery is to ensure that it takes minimal effort to deploy new code.
+Continuous delivery usually means a developer’s, changes to an application are automatically bug tested and uploaded to a repository (like GitHub or a container registry), where they can then be deployed to a live dev/staging/production environment by the operations team. It’s an answer to the problem of poor visibility and communication between dev and business teams. The purpose of continuous delivery is to ensure that it takes minimal effort to deploy new code.
 
 Continuous deployment can refer to automatically releasing a developer’s changes from the repository to production, where it is usable by customers. Reduces manual processes that slow down app delivery. 
 
 <img style='width: 800px; background-color:white' src="./images/cicd.png" />
+<img style='width: 800px; background-color:white' src="./images/cd-cd.png" />
 
 
 # Advantages
