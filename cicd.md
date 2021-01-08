@@ -14,7 +14,7 @@ Continuous delivery usually means a developer’s, changes to an application are
 
 Continuous deployment can refer to automatically releasing a developer’s changes from the repository to production, where it is usable by customers. Reduces manual processes that slow down app delivery. 
 
-<img style='width: 800px; background-color:white' src="./images/cicd.png" />
+<img style='width: 800px; background-color:white' src="./images/cd-ci.png" />
 <img style='width: 800px; background-color:white' src="./images/cd-cd.png" />
 
 
