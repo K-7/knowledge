@@ -1,17 +1,21 @@
-# What is Machine Learning ?
+# EMERGING TECHNOLOGIES
+
+
+
+## What is Machine Learning ?
 
 - Provide system's the ability to automatically learn and improve from experience without being explicitly programmed
 - Eg: Imagine you are going to bowling and its your first day
 - A computer program is said to learn from experience E with respect to some class of tasks T and performance measure P, if its performance at tasks in T, as measured by P, improves with experience E.
 
-# Difference between ML & AI
+### Difference between ML & AI
 - Artificial Intelligence is the broader concept of machines being able to carry out tasks in a 
 way that we would consider “smart”.
 - Machine Learning is a current application of AI based on the idea of feeding data & allow 
 them learn for themselves
 
 
-# Types of ML
+### Types of ML
 
 <img style='width: 800px' src="./images/ML-types.jpg" />
 
@@ -31,7 +35,7 @@ them learn for themselves
 
 
 
-# Applications of ML & AI
+### Applications of ML & AI
 
 - Do you know Facebook is using ML to tag your friends in your uploaded picture? Do you know Facebook shows custom video recommendations based on your interest history?
 - Do you know how does gmail knows that a particular mail has to go to priority, social, promotion or spam box
@@ -40,9 +44,9 @@ them learn for themselves
 - Education - Identify struggling students earlier and take necessary action 
 
 
-# =================================================================
+## =================================================
 
-# BlockChain
+## BlockChain
 
 Blockchain is a specific type of database.
 It differs from a typical database in the way it stores information; A blockchain collects information together in groups, also known as blocks, that hold sets of information. Blocks have certain storage capacities and, when filled, are chained onto the previously filled block, forming a chain of data known as the “blockchain.” All new information that follows that freshly added block is compiled into a newly formed block that will then also be added to the chain once filled. This makes the data chained together in chronological order.
