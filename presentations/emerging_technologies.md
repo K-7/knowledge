@@ -8,6 +8,18 @@
 - Recommended Skills, Knowledge, do's and don'ts
 
 
+### Usefull links
+
+- https://github.com
+- https://www.hackerrank.com/
+- https://www.hackerearth.com/
+- https://www.kaggle.com/
+- https://colab.research.google.com/notebooks/intro.ipynb#recent=true
+- https://www.techgig.com/
+- https://www.geeksforgeeks.org/
+
+
+
 ## What is Machine Learning ?
 
 - Provide system's the ability to automatically learn and improve from experience without being explicitly programmed
