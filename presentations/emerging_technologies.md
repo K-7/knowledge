@@ -1,6 +1,12 @@
 # EMERGING TECHNOLOGIES
 
 
+## Basic Requirement for Software Engineers 
+
+- Software Industry Knowledge 
+
+- Recommended Skills, Knowledge, do's and don'ts
+
 
 ## What is Machine Learning ?
 
