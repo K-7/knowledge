@@ -67,7 +67,7 @@ them learn for themselves
 ## BlockChain
 
 Blockchain is a specific type of database.
-It differs from a typical database in the way it stores information; A blockchain collects information together in groups, also known as blocks, that hold sets of information. Blocks have certain storage capacities and, when filled, are chained onto the previously filled block, forming a chain of data known as the “blockchain.” All new information that follows that freshly added block is compiled into a newly formed block that will then also be added to the chain once filled. This makes the data chained together in chronological order.
+It differs from a typical database in the way it stores information; A blockchain collects information together in groups, also known as blocks, that hold sets of information. Blocks have certain storage capacities and, when filled, are chained onto the previously filled block, forming a chain of data known as the “blockchain.” All new information that follows current block is compiled into a newly formed block that will then be added to the chain once filled. This makes the data chained together in chronological order.
 
 Different types of information can be stored on a blockchain but the most common use so far has been as a ledger for transactions. 
 In Bitcoin’s case, blockchain is used in a decentralized way so that no single person or group has control—rather, all users collectively retain control.
